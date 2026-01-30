@@ -11,3 +11,14 @@ main
 {
     font-size: 30px;
 }
+.img-banner
+{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.ancho-card
+{
+ width: 350px;
+}
