@@ -28,7 +28,7 @@ main
     height: 30px;
     background-color: rgb(82, 224, 82);
     border-radius: 5px;
-    margin: 5px;
+   
     text-align: center;
     font-weight: bold;
    
@@ -39,7 +39,7 @@ main
     height: 30px;
     background-color: rgb(186, 53, 204);
     border-radius: 5px;
-    margin: 5px;
+    
     color: white;
     text-align: center;
     font-weight: bold;
@@ -50,6 +50,17 @@ main
       width: 70px;
     height: 30px;
     background-color: orange;
+    border-radius: 5px;
+   
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.fondo-celeste
+{
+      width: 70px;
+    height: 30px;
+    background-color: rgb(107, 177, 243);
     border-radius: 5px;
     margin: 5px;
     color: white;
