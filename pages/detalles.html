@@ -46,10 +46,10 @@
     </header>
    
        <main class="container">
-      <section class="row mb-5">
+      <section class="row mb-5 gx-4">
         <h1 class="text-center">Bulbasaur <span class="text-muted">N°0001</span></h1>
       
-            <div class="card col-12 col-md-6 col-lg-6 ">
+            <article class="card col-12 col-md-6 col-lg-6 ">
           <a href="../pages/detalles.html">      <img
             src="../img/bulbasaurOriginal.png"
             class="card-img-top"
@@ -71,11 +71,49 @@
           <label class="fondo-hielo">Hielo</label>
           <label class="fondo-turquesa">Psiquico</label>
          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6 bg-primary contenedor-detalle">
-          <p class="text-white py-3">Tras nacer, crece alimentandose por un tiempo de los nutrientes que contiene el bulbo de su lomo</p>
+        </article>
+        <article class="col-12 col-md-6 bg-primary contenedor-detalle text-white p-4 rounded">
 
-        </div>
+  <p class="mb-4">
+    Tras nacer, crece alimentándose por un tiempo de los nutrientes que contiene el bulbo de su lomo
+  </p>
+
+  <div class="row">
+    <!-- COLUMNA IZQUIERDA -->
+    <div class="col-6">
+      <div class="mb-3">
+        <small class="text-light">Altura</small>
+        <p class="fw-bold mb-0">0,7 m</p>
+      </div>
+
+      <div class="mb-3">
+        <small class="text-light">Peso</small>
+        <p class="fw-bold mb-0">6,9 kg</p>
+      </div>
+
+      <div>
+        <small class="text-light">Género</small><br>
+        <i class="bi bi-gender-male fs-5 me-2"></i>
+        <i class="bi bi-gender-female fs-5"></i>
+      </div>
+    </div>
+
+    <!-- COLUMNA DERECHA -->
+    <div class="col-6 text-end">
+      <div class="mb-3">
+        <small class="text-light">Categoría</small>
+        <p class="fw-bold mb-0">Semilla</p>
+      </div>
+
+      <div>
+        <small class="text-light">Habilidad</small>
+        <p class="fw-bold mb-0">Espesura</p>
+      </div>
+    </div>
+  </div>
+
+</article>
+
            <div class="d-flex justify-content-center my-3">
           <button type="button"class="btn btn-danger btn-sm justify-content-center">
           <a href="../index.html" class="nav-link"><i class="bi bi-arrow-left-short"></i> Volver atras</a>
