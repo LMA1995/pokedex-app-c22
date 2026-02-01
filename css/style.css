@@ -90,3 +90,25 @@ main
     color: white;
    
 }
+.fondo-hielo
+{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(47, 118, 184);
+    border-radius: 5px;
+   
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.fondo-turquesa
+{
+     width: 70px;
+    height: 30px;
+    background-color: rgb(184, 47, 184);
+    border-radius: 5px;
+   
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
