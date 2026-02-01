@@ -112,3 +112,8 @@ main
     font-weight: bold;
     color: white;
 }
+.contenedor-detalle
+{
+    height: 300px;
+    border-radius: 5px;
+}
