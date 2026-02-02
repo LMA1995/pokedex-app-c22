@@ -118,3 +118,19 @@ main
     border-radius: 5px;
     font-size: 18px;
 }
+.img-error404
+{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.btn-volver
+{
+    width: 200px;
+    height: 45px;
+    font-size: 22px;
+    border-radius: 20px;
+    color: white;
+
+   
+}
