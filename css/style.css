@@ -134,3 +134,22 @@ width: 340px;
 
    
 }
+.login-flotante
+{
+    background-color: rgb(43, 39, 39) ;
+      font-size: 18dpx;
+    color: white;
+    width: 45px;
+    border-radius: 5px;
+    padding: 4px;
+    width: 50px;
+    position: fixed;
+    left: 0px;
+    top: 70px;
+    z-index: 2;
+}
+.icono-login
+{
+    font-size: 25px;
+    text-align: center;
+}
